@@ -101,8 +101,8 @@ INSTALL_DIRS    = $(BINDIR) $(APPSDIR) $(ICONDIR) $(PIXMAPDIR) $(MANDIR)
 
 CLASS		= XTerm
 EXTRAHDR	=  Tekparse.h graphics_sixel.h graphics.h
-EXTRASRC	=  TekPrsTbl.c Tekproc.c graphics_sixel.c graphics.c
-EXTRAOBJ	=  TekPrsTbl.o Tekproc.o graphics_sixel.o graphics.o
+EXTRASRC	=  TekPrsTbl.c Tekproc.c html.c svg.c graphics_sixel.c graphics.c
+EXTRAOBJ	=  TekPrsTbl.o Tekproc.o html.o svg.o graphics_sixel.o graphics.o
 
 AUTO_SOURCE	= \
 		builtin_icons.h \
